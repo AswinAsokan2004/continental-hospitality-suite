@@ -21,85 +21,108 @@ A **full-stack hospitality management system** that supports hotel room booking,
 └── README.md
 ```
 
-🚀 Features
-  🛏️ Hotel room booking
-  
-  📅 Event management
-  
-  🍽️ Restaurant reservations
-  
-  🧹 Maintenance request tracking
-  
-  👨‍💼 Employee management
-  
-  📧 Email notifications (for bookings)
-  
-  📱 Flutter-based mobile app
-  
-  🖥️ React-based responsive web frontend
-  
-  🛠️ Modular backend with MySQL integration
+---
 
-🧠 Tech Stack
-  Layer	Technology
-  Backend	Python (Flask) + MySQL
-  Mobile App	Flutter (Dart)
-  Web App	React (JSX)
-  Database	MySQL
-  Others	Flask-Mail, JWT (optional), REST API architecture
+## 🚀 Features
 
-🛠️ Getting Started
-✅ Backend Setup (Flask)
-  1.Navigate to backend/
-  2.Create a virtual environment and activate it
-  3.Install dependencies:
-  4.Configure .env for DB credentials and email
-  5. Run the server:
-  ```bash
-  python app.py
-```bash
-✅ Mobile App Setup (Flutter)
-  1.Navigate to App/paris/
-  2.Run on emulator/device:
-  
-    ```bash
-  flutter pub get
-  flutter run
-```bash
+- 🛏️ Hotel room booking  
+- 📅 Event management  
+- 🍽️ Restaurant reservations  
+- 🧹 Maintenance request tracking  
+- 👨‍💼 Employee management  
+- 📧 Email notifications (for bookings)  
+- 📱 Flutter-based mobile app  
+- 🖥️ React-based responsive web frontend  
+- 🛠️ Modular backend with MySQL integration  
 
-✅ Web Frontend Setup (React)
-  1.Navigate to Frontend/Hospitality-management-system/
-  2.Install dependencies:
-  ```bash
-  npm install
-  ```bash
-  Start the development server:
-  
-  ```bash
-  npm start
-  ```bash
+---
 
+## 🧠 Tech Stack
 
-🧩 Backend API Overview
-All endpoints are RESTful and organized under route files like:
+| Layer       | Technology                        |
+|-------------|-----------------------------------|
+| Backend     | Python (Flask) + MySQL            |
+| Mobile App  | Flutter (Dart)                    |
+| Web App     | React (JSX)                       |
+| Database    | MySQL                             |
+| Others      | Flask-Mail, JWT (optional), REST API |
 
-/booking
-/event
-/restaurant
-/employee
-/maintenance
-Example: POST /booking to book a room
+---
 
-📬 Email Integration
-Flask-Mail is used to send booking confirmations
+## 🛠️ Getting Started
 
-Ensure SMTP credentials are set in your environment
+### ✅ Backend Setup (Flask)
 
-🔒 Authentication
-You can integrate JWT-based authentication for secured APIs
+1. Navigate to `backend/`  
+2. Create and activate a virtual environment  
+3. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Configure `.env` for DB credentials and email  
+5. Run the server:  
+   ```bash
+   python app.py
+   ```
 
-✨ Demo Video & UI 
-[Watch the Demo Video](https://drive.google.com/file/d/1KQLeWcc61L0FReqLQfV-EMo8kZkSjmG3/view?usp=sharing)
+### ✅ Mobile App Setup (Flutter)
 
-🤝 Contributors
-Aswin Asokan – Full Stack Developer
+1. Navigate to `App/paris/`  
+2. Run on emulator/device:  
+   ```bash
+   flutter pub get
+   flutter run
+   ```
+
+### ✅ Web Frontend Setup (React)
+
+1. Navigate to `Frontend/Hospitality-management-system/`  
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Start the development server:  
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🧩 Backend API Overview
+
+All endpoints follow RESTful structure and are organized in separate route files:
+
+- `/booking` – Book and manage rooms  
+- `/event` – Manage event bookings  
+- `/restaurant` – Handle restaurant reservations  
+- `/employee` – Employee CRUD operations  
+- `/maintenance` – Maintenance tracking  
+
+➡️ **Example:** `POST /booking` – to book a hotel room
+
+---
+
+## 📬 Email Integration
+
+- Uses **Flask-Mail** for sending booking confirmation emails  
+- Ensure SMTP credentials are properly set in your `.env` file
+
+---
+
+## 🔒 Authentication (Optional)
+
+- JWT-based authentication can be integrated for secured API access
+
+---
+
+## ✨ Demo Video & UI
+
+🎬 [Watch the Demo Video](https://drive.google.com/file/d/1KQLeWcc61L0FReqLQfV-EMo8kZkSjmG3/view?usp=sharing)
+
+---
+
+## 🤝 Contributors
+
+- **Aswin Asokan** – Full Stack Developer
+
+---
