@@ -109,7 +109,7 @@ All endpoints follow RESTful structure and are organized in separate route files
 
 ---
 
-## 🔒 Authentication (Optional)
+## 🔒 Authentication 
 
 - JWT-based authentication can be integrated for secured API access
 
