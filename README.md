@@ -57,7 +57,7 @@ A **full-stack hospitality management system** that supports hotel room booking,
   5. Run the server:
   ```bash
   python app.py
-
+```bash
 ✅ Mobile App Setup (Flutter)
   1.Navigate to App/paris/
   2.Run on emulator/device:
@@ -65,19 +65,19 @@ A **full-stack hospitality management system** that supports hotel room booking,
     ```bash
   flutter pub get
   flutter run
-
+```bash
 
 ✅ Web Frontend Setup (React)
   1.Navigate to Frontend/Hospitality-management-system/
   2.Install dependencies:
   ```bash
   npm install
-  ```
+  ```bash
   Start the development server:
   
   ```bash
   npm start
-  ```
+  ```bash
 
 
 🧩 Backend API Overview
